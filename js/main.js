@@ -58,22 +58,22 @@ document.onkeydown = function (event){
     if (event.key == 'ArrowRight') {
        if (left1 >= 900) return;
        redCube.style.left = left1 + 'px';
-       left1 = left1 + 5;
+       left1 = left1 + 10;
     }
      else if (event.key == 'ArrowDown') {
         if (top1 >= 400) return;
        redCube.style.top = top1 + 'px';
-       top1 = top1 + 5;
+       top1 = top1 + 10;
     }
     if (event.key == 'ArrowLeft') {
         if (left1 <= 0) return;
         redCube.style.left = left1 + 'px';
-        left1 = left1 - 5;
+        left1 = left1 - 10;
     }
     else if (event.key == 'ArrowUp') {
         if (top1 <= 0) return;
        redCube.style.top = top1 + 'px';
-        top1 = top1 - 5;
+        top1 = top1 - 10;
     };
 };
 
